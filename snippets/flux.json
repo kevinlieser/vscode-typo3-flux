@@ -1,0 +1,366 @@
+{
+  "{flux:content.get()}": {
+    "prefix": "flux:content.get()",
+    "body": [
+      "flux:content.get(area:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:content.get()}"
+  },
+  "{flux:content.render()}": {
+    "prefix": "flux:content.render()",
+    "body": [
+      "flux:content.render(area:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:content.render()}"
+  },
+  "{flux:field.checkbox()}": {
+    "prefix": "flux:field.checkbox()",
+    "body": [
+      "flux:field.checkbox(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.checkbox()}"
+  },
+  "{flux:field.controllerActions()}": {
+    "prefix": "flux:field.controllerActions()",
+    "body": [
+      "flux:field.controllerActions()"
+    ],
+    "description": "TYPO3 Flux | {flux:field.controllerActions()}"
+  },
+  "{flux:field.custom()}": {
+    "prefix": "flux:field.custom()",
+    "body": [
+      "flux:field.custom(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.custom()}"
+  },
+  "{flux:field.dateTime()}": {
+    "prefix": "flux:field.dateTime()",
+    "body": [
+      "flux:field.dateTime(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.dateTime()}"
+  },
+  "{flux:field.file()}": {
+    "prefix": "flux:field.file()",
+    "body": [
+      "flux:field.file(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.file()}"
+  },
+  "{flux:field.inline()}": {
+    "prefix": "flux:field.inline()",
+    "body": [
+      "flux:field.inline(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.inline()}"
+  },
+  "{flux:field.inline.fal()}": {
+    "prefix": "flux:field.inline.fal()",
+    "body": [
+      "flux:field.inline.fal(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.inline.fal()}"
+  },
+  "{flux:field.input()}": {
+    "prefix": "flux:field.input()",
+    "body": [
+      "flux:field.input(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.input()}"
+  },
+  "{flux:field.multiRelation()}": {
+    "prefix": "flux:field.multiRelation()",
+    "body": [
+      "flux:field.multiRelation(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.multiRelation()}"
+  },
+  "{flux:field.none()}": {
+    "prefix": "flux:field.none()",
+    "body": [
+      "flux:field.none(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.none()}"
+  },
+  "{flux:field.radio()}": {
+    "prefix": "flux:field.radio()",
+    "body": [
+      "flux:field.radio(name:$1, items:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.radio()}"
+  },
+  "{flux:field.relation()}": {
+    "prefix": "flux:field.relation()",
+    "body": [
+      "flux:field.relation(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.relation()}"
+  },
+  "{flux:field.select()}": {
+    "prefix": "flux:field.select()",
+    "body": [
+      "flux:field.select(name:$1, items:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.select()}"
+  },
+  "{flux:field.text()}": {
+    "prefix": "flux:field.text()",
+    "body": [
+      "flux:field.text(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.text()}"
+  },
+  "{flux:field.tree()}": {
+    "prefix": "flux:field.tree()",
+    "body": [
+      "flux:field.tree(name:$1, parentField:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.tree()}"
+  },
+  "{flux:field.tree.category()}": {
+    "prefix": "flux:field.tree.category()",
+    "body": [
+      "flux:field.tree.category(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.tree.category()}"
+  },
+  "{flux:field.userFunc()}": {
+    "prefix": "flux:field.userFunc()",
+    "body": [
+      "flux:field.userFunc(name:$1, userFunc:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:field.userFunc()}"
+  },
+  "{flux:form()}": {
+    "prefix": "flux:form()",
+    "body": [
+      "flux:form(id:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form()}"
+  },
+  "{flux:form.container()}": {
+    "prefix": "flux:form.container()",
+    "body": [
+      "flux:form.container(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.container()}"
+  },
+  "{flux:form.content()}": {
+    "prefix": "flux:form.content()",
+    "body": [
+      "flux:form.content(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.content()}"
+  },
+  "{flux:form.data()}": {
+    "prefix": "flux:form.data()",
+    "body": [
+      "flux:form.data(table:$1, field:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.data()}"
+  },
+  "{flux:form.object()}": {
+    "prefix": "flux:form.object()",
+    "body": [
+      "flux:form.object(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.object()}"
+  },
+  "{flux:form.option()}": {
+    "prefix": "flux:form.option()",
+    "body": [
+      "flux:form.option(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.option()}"
+  },
+  "{flux:form.option.group()}": {
+    "prefix": "flux:form.option.group()",
+    "body": [
+      "flux:form.option.group()"
+    ],
+    "description": "TYPO3 Flux | {flux:form.option.group()}"
+  },
+  "{flux:form.option.icon()}": {
+    "prefix": "flux:form.option.icon()",
+    "body": [
+      "flux:form.option.icon()"
+    ],
+    "description": "TYPO3 Flux | {flux:form.option.icon()}"
+  },
+  "{flux:form.option.sorting()}": {
+    "prefix": "flux:form.option.sorting()",
+    "body": [
+      "flux:form.option.sorting()"
+    ],
+    "description": "TYPO3 Flux | {flux:form.option.sorting()}"
+  },
+  "{flux:form.option.static()}": {
+    "prefix": "flux:form.option.static()",
+    "body": [
+      "flux:form.option.static()"
+    ],
+    "description": "TYPO3 Flux | {flux:form.option.static()}"
+  },
+  "{flux:form.render()}": {
+    "prefix": "flux:form.render()",
+    "body": [
+      "flux:form.render(form:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.render()}"
+  },
+  "{flux:form.section()}": {
+    "prefix": "flux:form.section()",
+    "body": [
+      "flux:form.section(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.section()}"
+  },
+  "{flux:form.sheet()}": {
+    "prefix": "flux:form.sheet()",
+    "body": [
+      "flux:form.sheet(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.sheet()}"
+  },
+  "{flux:form.variable()}": {
+    "prefix": "flux:form.variable()",
+    "body": [
+      "flux:form.variable(name:$1, value:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:form.variable()}"
+  },
+  "{flux:grid()}": {
+    "prefix": "flux:grid()",
+    "body": [
+      "flux:grid()"
+    ],
+    "description": "TYPO3 Flux | {flux:grid()}"
+  },
+  "{flux:grid.column()}": {
+    "prefix": "flux:grid.column()",
+    "body": [
+      "flux:grid.column(colPos:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:grid.column()}"
+  },
+  "{flux:grid.row()}": {
+    "prefix": "flux:grid.row()",
+    "body": [
+      "flux:grid.row()"
+    ],
+    "description": "TYPO3 Flux | {flux:grid.row()}"
+  },
+  "{flux:outlet()}": {
+    "prefix": "flux:outlet()",
+    "body": [
+      "flux:outlet()"
+    ],
+    "description": "TYPO3 Flux | {flux:outlet()}"
+  },
+  "{flux:outlet.argument()}": {
+    "prefix": "flux:outlet.argument()",
+    "body": [
+      "flux:outlet.argument(name:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:outlet.argument()}"
+  },
+  "{flux:outlet.form()}": {
+    "prefix": "flux:outlet.form()",
+    "body": [
+      "flux:outlet.form()"
+    ],
+    "description": "TYPO3 Flux | {flux:outlet.form()}"
+  },
+  "{flux:outlet.validate()}": {
+    "prefix": "flux:outlet.validate()",
+    "body": [
+      "flux:outlet.validate(type:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:outlet.validate()}"
+  },
+  "{flux:pipe.controller()}": {
+    "prefix": "flux:pipe.controller()",
+    "body": [
+      "flux:pipe.controller(action:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:pipe.controller()}"
+  },
+  "{flux:pipe.email()}": {
+    "prefix": "flux:pipe.email()",
+    "body": [
+      "flux:pipe.email(subject:$1, recipient:$2, sender:$3)"
+    ],
+    "description": "TYPO3 Flux | {flux:pipe.email()}"
+  },
+  "{flux:pipe.flashMessage()}": {
+    "prefix": "flux:pipe.flashMessage()",
+    "body": [
+      "flux:pipe.flashMessage(message:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:pipe.flashMessage()}"
+  },
+  "{flux:pipe.typeConverter()}": {
+    "prefix": "flux:pipe.typeConverter()",
+    "body": [
+      "flux:pipe.typeConverter(targetType:$1, typeConverter:$2)"
+    ],
+    "description": "TYPO3 Flux | {flux:pipe.typeConverter()}"
+  },
+  "{flux:wizard.add()}": {
+    "prefix": "flux:wizard.add()",
+    "body": [
+      "flux:wizard.add(table:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.add()}"
+  },
+  "{flux:wizard.colorPicker()}": {
+    "prefix": "flux:wizard.colorPicker()",
+    "body": [
+      "flux:wizard.colorPicker()"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.colorPicker()}"
+  },
+  "{flux:wizard.edit()}": {
+    "prefix": "flux:wizard.edit()",
+    "body": [
+      "flux:wizard.edit()"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.edit()}"
+  },
+  "{flux:wizard.link()}": {
+    "prefix": "flux:wizard.link()",
+    "body": [
+      "flux:wizard.link()"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.link()}"
+  },
+  "{flux:wizard.list()}": {
+    "prefix": "flux:wizard.list()",
+    "body": [
+      "flux:wizard.list(table:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.list()}"
+  },
+  "{flux:wizard.select()}": {
+    "prefix": "flux:wizard.select()",
+    "body": [
+      "flux:wizard.select(items:$1)"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.select()}"
+  },
+  "{flux:wizard.slider()}": {
+    "prefix": "flux:wizard.slider()",
+    "body": [
+      "flux:wizard.slider()"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.slider()}"
+  },
+  "{flux:wizard.suggest()}": {
+    "prefix": "flux:wizard.suggest()",
+    "body": [
+      "flux:wizard.suggest()"
+    ],
+    "description": "TYPO3 Flux | {flux:wizard.suggest()}"
+  }
+}
